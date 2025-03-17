@@ -10,3 +10,4 @@ msgpacker = { version = "0.4.5", path = "../msgpacker/msgpacker" }
 rmp = "0.8.14"
 rmp-serde = "1.3.0"
 serde = { version = "1.0.219", features = [ "derive" ] }
+serde_bytes = "0.11.17"
