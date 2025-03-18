@@ -72,8 +72,8 @@ fn main() {
       vempty: vec![],
     };
 
-    // out.pack(&mut buf);
-    out.serialize(&mut Serializer::new(&mut buf)).unwrap();
+    out.pack(&mut buf);
+    // out.serialize(&mut Serializer::new(&mut buf)).unwrap();
 
     let stdout = io::stdout();
     let mut handle = stdout.lock();
